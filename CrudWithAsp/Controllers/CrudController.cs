@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CrudWithAsp.Models;
 
 namespace CrudWithAsp
 {
@@ -14,9 +15,11 @@ namespace CrudWithAsp
     {
         [HttpGet]
 
-        public string Get()
+        public IEnumerable<StudentModel> GetStudentInformation()
         {
-            return "Hi this is Nazmul";
+            return new List<StudentModel>() {
+                new StudentModel { Id=1,StudentName="Nazmul Haque",ClassTeacherId=1,Class=9,RollNumber=1}
+            };
         }
     }
 }

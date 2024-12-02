@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Learning\\CrudWithAsp\\CrudWithAsp\\CrudWithAsp.csproj": {}
+    "D:\\Learning\\learn_asp.net_web_api\\CrudWithAsp\\CrudWithAsp.csproj": {}
   },
   "projects": {
-    "D:\\Learning\\CrudWithAsp\\CrudWithAsp\\CrudWithAsp.csproj": {
+    "D:\\Learning\\learn_asp.net_web_api\\CrudWithAsp\\CrudWithAsp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Learning\\CrudWithAsp\\CrudWithAsp\\CrudWithAsp.csproj",
+        "projectUniqueName": "D:\\Learning\\learn_asp.net_web_api\\CrudWithAsp\\CrudWithAsp.csproj",
         "projectName": "CrudWithAsp",
-        "projectPath": "D:\\Learning\\CrudWithAsp\\CrudWithAsp\\CrudWithAsp.csproj",
+        "projectPath": "D:\\Learning\\learn_asp.net_web_api\\CrudWithAsp\\CrudWithAsp.csproj",
         "packagesPath": "C:\\Users\\nazmu\\.nuget\\packages\\",
-        "outputPath": "D:\\Learning\\CrudWithAsp\\CrudWithAsp\\obj\\",
+        "outputPath": "D:\\Learning\\learn_asp.net_web_api\\CrudWithAsp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
