@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CrudWithAsp.Models;
+using CrudWithAsp.Models.Repository;
 
 namespace CrudWithAsp
 {
@@ -17,9 +18,7 @@ namespace CrudWithAsp
 
         public IEnumerable<StudentModel> GetStudentInformation()
         {
-            return new List<StudentModel>() {
-                new StudentModel { Id=1,StudentName="Nazmul Haque",ClassTeacherId=1,Class=9,RollNumber=1}
-            };
+            return SchoolRepository.Students;
         }
     }
 }
